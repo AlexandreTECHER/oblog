@@ -1,6 +1,5 @@
 <?php
 
-// Les différents articles sous forme d'objet
 $dataArticlesList = [
     1 => new Article(
         'Ivre, il refait tous les challenges en un week-end sans dormir.',
@@ -34,19 +33,19 @@ $dataArticlesList = [
 
 // Les catégories
 $dataCategoriesList = [
-    1 => 'TeamBack',
-    2 => 'TeamFront',
-    3 => 'Collaboration',
-    4 => 'Ma Vie De Dev'
+    1 => new Category('TeamBack'),
+    2 => new Category('TeamFront'),
+    3 => new Category('Collaboration'),
+    4 => new Category('Ma Vie De Dev')
 ];
 
 // Les auteurs
 $dataAuthorsList = [
-    1 => 'Maxime',
-    2 => 'Anthony',
-    3 => 'Alexandre',
-    4 => 'Dario',
-    5 => 'Julie',
-    6 => 'Lucie',
-    7 => 'Xavier'
+    1 => new Author('Maxime'),
+    2 => new Author('Anthony'),
+    3 => new Author('Alexandre'),
+    4 => new Author('Dario'),
+    5 => new Author('Julie'),
+    6 => new Author('Lucie'),
+    7 => new Author('Xavier')
 ];

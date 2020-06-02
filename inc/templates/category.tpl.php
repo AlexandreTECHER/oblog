@@ -9,20 +9,19 @@
                 </div>
             <?php endforeach ?>
         </div>
-
-        <div class="col-lg-4 col-md-12">
-            <form class="form">
-                <div class="form-row">
-                    <div class="col">
-                        <label for="search" class="sr-only">Rechercher</label>
-                        <input type="text" class="form-control mr-2" id="search">
+            <div class="col-lg-4 col-md-12">
+                <form class="form">
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="search" class="sr-only">Rechercher</label>
+                            <input type="text" class="form-control mr-2" id="search">
+                        </div>
+                        <div class="col-4">
+                            <button type="submit" class="btn btn-primary">Rechercher</button>
+                        </div>
                     </div>
-                    <div class="col-4">
-                        <button type="submit" class="btn btn-primary">Rechercher</button>
-                    </div>
-                </div>
-            </form>
-            <?php require __DIR__ . '/aside.tpl.php' ?>
+                </form>
+                <?php require __DIR__ . '/aside.tpl.php' ?>
+            </div>
         </div>
     </div>
-</div>
