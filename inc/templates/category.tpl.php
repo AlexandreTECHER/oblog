@@ -21,7 +21,7 @@
                         </div>
                     </div>
                 </form>
-                <?php require __DIR__ . '/aside.tpl.php' ?>
+                <!-- <?php require __DIR__ . '/aside.tpl.php' ?> -->
             </div>
         </div>
     </div>
