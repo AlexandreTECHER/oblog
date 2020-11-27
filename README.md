@@ -14,3 +14,4 @@
 # symfony-angry-birds
 # symfony-form-movie-review
 # site-cv-V2-symfony
+# site-CV-V2-symfony
